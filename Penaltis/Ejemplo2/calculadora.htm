@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/calculadora.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cabecera"></div>
+    <div class="otra"></div>
+    <div class="contenedor">
+        <div class="pantalla" id="pantalla"></div>
+        <button value=1 onclick="operacion(this.value)">1</button>
+        <button value=2 onclick="operacion(this.value)">2</button>
+        <button value=3 onclick="operacion(this.value)">3</button>
+        <button value=+ onclick="operacion(this.value)">+</button>
+        <button value=4 onclick="operacion(this.value)">4</button>
+        <button value=5 onclick="operacion(this.value)">5</button>
+        <button value=6 onclick="operacion(this.value)">6</button>
+        <button value=- onclick="operacion(this.value)">-</button>
+        <button value=7 onclick="operacion(this.value)">7</button>
+        <button value=8 onclick="operacion(this.value)">8</button>
+        <button value=9 onclick="operacion(this.value)">9</button>
+        <button value=* onclick="operacion(this.value)">*</button>
+        <button value=/ onclick="operacion(this.value)">/</button>
+        <button value=0 onclick="operacion(this.value)">0</button>
+        <button value== onclick="operacion(this.value)">=</button>
+        <button value="CA" onclick="operacion(this.value)">CA</button>
+        
+    </div>
+    
+</body>
+</html>
+
+<script>
+    var array = [];
+    function operacion(a){
+        array.push(a);
+        
+        alert(array);
+    }
+</script>
