@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script   src="angular/angular.min.js"></script>
+    
+    <script  src="js/app.js"></script>
+    
+    <title>Document</title>
+</head>
+<body ng-app="aplicacion">
+    <div class="contenedor"></div>
+    <div class="contenedor1" ng-controller="principal">
+
+        <div class="derecha"  >
+                
+                    <li ng-repeat="y in pais2" ng-if="$index %2 == 0">
+                        <img src='http://www.countryflags.io/{{y}}/flat/64.png'/>
+                    </li>
+    
+                
+        </div>
+        <div class="derecha"  >
+                
+               
+
+            <li class="nombre" ng-repeat="x in ejemplo" ng-if="$index %2 == 0">{{x}}
+            </li>
+        </div>
+        <div class="centro" >
+                
+                <li class="vs"  ng-repeat="x in ejemplo" ng-if="$index %2 == 1">vs
+                </li>
+        </div>
+        
+        <div class="izquierda" >
+                <li ng-repeat="y in pais2" ng-if="$index %2 == 1">
+                        <img src='http://www.countryflags.io/{{y}}/flat/64.png'/>
+                    </li>
+            
+        </div>
+        <div class="izquierda" >
+                
+            <li class="nombre"  ng-repeat="x in ejemplo" ng-if="$index %2 == 1">{{x}}
+            </li>
+        </div>
+        
+         
+    </div>
+    <div class="contenedor2"></div>
+    
+    
+</body>
+</html>
