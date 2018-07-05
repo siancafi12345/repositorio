@@ -2,13 +2,13 @@
 curso de desarrollo fullstack el cual ayudar a aprender un poco mas
 ## esta estructurado de la siguiente manera 
 Ordered
-1 sketch proto.io
+- sketch proto.io
 **Creación de poupoo**
-2 pagina personal
+- pagina personal
 **Mi perfil personal**
-3 clonar pagina
+- clonar pagina
 **Crear una replica de una pagina**
-4 Animacione
+- Animacione
 **Hacer un gol de penal con animaciones**
-5 Partidos
+- Partidos
 **consumo de api y mustra de templete**
