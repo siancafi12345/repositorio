@@ -2,7 +2,7 @@
 curso de desarrollo fullstack el cual ayudar a aprender un poco mas
 ## esta estructurado de la siguiente manera 
 Ordered
-- **#sketch proto.io**
+- #**sketch proto.io**
 **Creación de poupoo**
 - **#pagina personal**
 **Mi perfil personal**
