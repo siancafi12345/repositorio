@@ -1,7 +1,7 @@
 # repositorio
 curso de desarrollo fullstack el cual ayudar a aprender un poco mas
 ## esta estructurado de la siguiente manera 
-List:
+Ordered
 1 sketch proto.io
 **Creación de poupoo**
 2 pagina personal
